@@ -1,0 +1,20 @@
+Hi Guys,
+
+This notes is helpfull for the script understanding 
+
+in condtions will use different drackets
+
+1.(( condtion )) ---arthamatic condtion 
+-> this used for check the qual , greater than, less than
+ex:- == != -gt -lt -eq and -ne 
+2.[[ condtion ]] --- pattern matching condtion i
+-f, -d, -r, -w, -x
+The [[ ]] construct is a bash extension that provides more features than the standard [ ] (test command). Key differences:
+
+[[ ]] supports pattern matching with == and =~
+[[ ]] doesn't require quoting variables as often
+[[ ]] has more intuitive handling of logical operators (&& and || instead of -a and -o)
+[[ ]] is generally safer and more powerful
+
+
+
